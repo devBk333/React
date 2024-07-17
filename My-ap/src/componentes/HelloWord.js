@@ -7,8 +7,6 @@ function HelloWord() {
         <div>
             <Frase/>
             <h1>Meu primeiro Componente</h1>
-            <Frase/>  
-            <Frase/>  
         </div>
     )
 }
