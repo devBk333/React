@@ -10,6 +10,12 @@ function App() {
     <div className="App">      
       <HelloWord/>
       <SayMyName nome= "Helson"/>
+     
+      <Pessoa 
+      nome = "SEILA"
+      idade = "23"
+      profissao = "Dev"
+      />
       </div>
   );
 }
