@@ -1,9 +1,9 @@
 import './App.css';
 import HelloWord from './componentes/HelloWord'
 import SayMyName from './componentes/SayMyName'
-import Pessoa from './componentes/Pessoa'
-import Frase from './componentes/Frase'
-import List from './componentes/List'
+import Pessoa    from './componentes/Pessoa'
+import Frase     from './componentes/Frase'
+import List      from './componentes/List'
 
 function App() {
   
@@ -16,8 +16,7 @@ function App() {
       <Pessoa 
       nome = "Helson" 
       idade = "23"
-      profissao = "Dev"
-      />
+      profissao = "Dev"/>
       <List/>
       </div>
   );
