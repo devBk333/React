@@ -13,7 +13,7 @@ export default Pessoa   ou*/
 function Pessoa({ nome, idade, profissao }){
     return <div>
         <h2>nome:{nome}</h2>
-        <p> idade:{idade}</p>
+         <p> idade:{idade}</p>
         <p> profissao:{profissao}</p>
     </div>
 }

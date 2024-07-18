@@ -3,6 +3,7 @@ import HelloWord from './componentes/HelloWord'
 import SayMyName from './componentes/SayMyName'
 import Pessoa from './componentes/Pessoa'
 import Frase from './componentes/Frase'
+import List from './componentes/List'
 
 function App() {
   
@@ -13,10 +14,11 @@ function App() {
       <HelloWord/>
       <SayMyName nome= "Helson"/>
       <Pessoa 
-      nome = "SEILA"
+      nome = "Helson" 
       idade = "23"
       profissao = "Dev"
       />
+      <List/>
       </div>
   );
 }

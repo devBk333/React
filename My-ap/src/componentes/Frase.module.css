@@ -1,10 +1,16 @@
+
 .fraseContainer{
     background-color: #333;
-    border: 1px solid #111;
+    padding-bottom: 50px;
+    border: 1px solid #70a8aa;
 }
 
 .fraseContent {
     color: #fff;
-    background-color: #333;
+    background-color: #a55959;
     margin: 0;
+}
+
+.list {
+    background-color: #a55959;
 }
