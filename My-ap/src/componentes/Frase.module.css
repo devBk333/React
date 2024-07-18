@@ -1,16 +1,3 @@
-
-.fraseContainer{
-    background-color: #333;
-    padding-bottom: 50px;
-    border: 1px solid #70a8aa;
-}
-
-.fraseContent {
-    color: #fff;
-    background-color: #a55959;
-    margin: 0;
-}
-
-.list {
-    background-color: #a55959;
+body {
+    background-color: #545;
 }
