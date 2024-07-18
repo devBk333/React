@@ -1,23 +1,16 @@
 import './App.css';
-import HelloWord from './componentes/HelloWord'
-import SayMyName from './componentes/SayMyName'
-import Pessoa    from './componentes/Pessoa'
-import Frase     from './componentes/Frase'
-import List      from './componentes/List'
+import Evento    from './componentes/Evento'
+import Form      from './componentes/Form'
 
 function App() {
   
   //div  container conteudo   //Classname no react
   return (
     <div className="App">      
-      <Frase/>
-      <HelloWord/>
-      <SayMyName nome= "Helson"/>
-      <Pessoa 
-      nome = "Helson" 
-      idade = "23"
-      profissao = "Dev"/>
-      <List/>
+      <h1>Testando eventos</h1>
+      <Evento numero = "1"/>
+      <Evento numero = "2"/>
+      <Form />
       </div>
   );
 }
