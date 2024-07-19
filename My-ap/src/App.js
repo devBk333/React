@@ -1,15 +1,13 @@
 import './App.css';
-import Evento from './componentes/Evento';
-import Form from './componentes/Form'
+import Condicional from './componentes/Condicional';
 
 function App() {
   
   //div  container conteudo   //Classname no react
   return (
     <div className="App">      
-      <h1>Sei la</h1>
-      <Evento />
-      <Form />
+      <h1>Renderização condicional</h1>
+      <Condicional />
       </div>
   );
 }
