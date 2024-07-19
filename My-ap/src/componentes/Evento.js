@@ -1,13 +1,16 @@
+import Button from './eventos/Button'
+
 function Evento ({ numero }){
 
-    function MeuEvento(){
-        console.log('Opa fui ativado! $ {numero}')
+    function meuEvento(){
+        console.log('Ativando primeiro evento!')
     }
 
+    //button  oclick manipula evento
     return (
         <div>
             <p>Clique para disparar evento:</p>
-            <button onCLick={MeuEvento}>Ativar!</button>
+            <Button event={meuEvento} text="primeiro evento"/>                    
         </div>
     )
 }

@@ -1,16 +1,16 @@
 //formularios
-import { useState } from 'react'         //import State
+import { useState } from 'react'                     //import State
 
 function Form(){
 
     function cadastrarUsuario(e) {
-        e.preventDefault() //para html e faz isso primeiro  precisa quando tiver evento
-        console.log(name)  //console
+        e.preventDefault()                           //para html e faz isso primeiro  precisa quando tiver evento
+        console.log(name)                            //console
         console.log('Cadastrou usuário!') }
 
-    const [name, setName] = useState()            //implementaçao hook  State  
-    const [password, setPassword] = useState()    //cria constante   
-
+    const [name, setName] =         useState()      //implementaçao hook  State  
+    const [password, setPassword] = useState()       //cria constante   
+    
     return(
         <div>
             <h1>Meu Cadastro</h1>
@@ -24,17 +24,19 @@ function Form(){
                  placeholder="Digite seu nome"                        //set as const baseado em campo de input
                  onChange={(e) => setName(e.target.value)}/>  
                 </div>
+        
                 <div>
-                <label htmlFor="name">Senha:</label>
+                <label htmlFor="password">Senha:</label>
                 <input 
                  type="password"
                  id="password"
                  name="password"
-                 placeholder="Digite sua senha"
+                 placeholder="Digite sua senha"                       //nome dentro do input
                  onChange={(e) => setPassword(e.target.value)}/>
                 </div>
+
                 <div>
-                    <input type="submit" value="Cadastrar"/>
+                    <input type="submit" value="Cadastrar"/>            
                 </div>
             </form>
         </div>

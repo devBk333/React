@@ -1,10 +1,19 @@
 body {padding: 50px;
-      background-color: #534d4d;}
-
+      background-color: #b47474;}
+      
 h1 {
-  color: azure;
+  color: rgb(0, 0, 0);
 }
 
 p{
-  background-color: #999;
+  color: rgb(0, 0, 0);
+  background-color: #504545;
+  font-size: 20px;
+}
+
+form {
+  color: rgb(0, 0, 0);
+  background-color: #cab6b6;
+  padding: 20px;
+  margin: center;
 }
