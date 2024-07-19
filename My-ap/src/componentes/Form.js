@@ -8,6 +8,8 @@ function Form(){
         console.log(name)                            //console
         console.log('Cadastrou usuário!') }
 
+// Declara uma variável de estado chamada 'name' e uma função para atualizá-la chamada 'setName'
+
     const [name, setName] =         useState()      //implementaçao hook  State  
     const [password, setPassword] = useState()       //cria constante   
     

@@ -11,7 +11,7 @@ function Evento ({ numero }){
         console.log('Ativando segundo evento')
         }
     
-    //button  oclick manipula evento
+    //button  onclick manipula evento
     return (
         <div>
             <p>Clique para disparar evento:</p>
