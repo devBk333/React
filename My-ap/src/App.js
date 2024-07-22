@@ -1,9 +1,10 @@
 import { useState } from 'react'   //hook     //elemento pai
 
 import './App.css';
-import SeuNome from './componentes/SeuNome';
+import SeuNome from './componentes/SeuNome';     //importa components
+import Saudacao from './componentes/Saudacao';
 
-
+//app principal
 
 function App() {
 
@@ -14,9 +15,9 @@ const [nome, setNome] = useState()   //State
     <div className="App">      
       <h1>State Lift</h1>
       <SeuNome setNome={setNome} />
-      {nome}
+      <Saudacao nome={nome} />
       </div>
   )
-}                                                 //array vazio   index puxa if  
-
+}                                               
+//array vazio   index puxa if  
 export default App;
