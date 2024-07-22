@@ -1,18 +1,22 @@
+import { useState } from 'react'   //hook     //elemento pai
+
 import './App.css';
-import Lista from './componentes/Lista';
+import SeuNome from './componentes/SeuNome';
+
+
 
 function App() {
 
-  const meusItens = ['React','Vue','Angular']     //array
+const [nome, setNome] = useState()   //State
   
-  //div  container conteudo   //Classname no react
+  //div  container conteudo                       //Classname no react
   return (
     <div className="App">      
-      <h1>Renderização listas</h1>
-      <Lista itens={meusItens}/>
-      <Lista itens={[]}/>               
+      <h1>State Lift</h1>
+      <SeuNome setNome={setNome} />
+      {nome}
       </div>
-  ); 
+  )
 }                                                 //array vazio   index puxa if  
 
 export default App;

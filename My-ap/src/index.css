@@ -1,10 +1,16 @@
 body {padding: 50px;
-      background-color: #467780;}
+      background-color: #66a2a7;}
       
 h1 {
   color: rgb(0, 0, 0);
 }
 
 button {
-  background-color: #9d96da;
+  background-color: #5046b1;
 }
+
+h3 {
+  background-color: rgb(69, 170, 145);
+}
+
+
