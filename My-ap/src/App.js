@@ -1,23 +1,25 @@
-import { useState } from 'react'   //hook     //elemento pai
+import { BrowserRouter as Router, Switch, Route, Link}  from 'react-router-dom'
+import Home from './Pages/Home';
+import Empresa from './Pages/Empresa';
+import Contato from './Pages/Contato';
 
-import './App.css';
-import SeuNome from './componentes/SeuNome';     //importa components
-import Saudacao from './componentes/Saudacao';
-
-//app principal
 
 function App() {
 
-const [nome, setNome] = useState()   //State
-  
-  //div  container conteudo                       //Classname no react
-  return (
-    <div className="App">      
-      <h1>State Lift</h1>
-      <SeuNome setNome={setNome} />
-      <Saudacao nome={nome} />
-      </div>
+return (
+    <Router>
+      <ul>
+          <li> <Link to="/">         Home </Link> </li>
+          <li> <Link to="/empresa">Empresa</Link> </li>
+          <li> <Link to="/contato">Contato</Link> </li>
+      </ul>
+      <Switch>
+          <Route exact path="/">       <Home />    </Route>
+          <Route path="/empresa"><Empresa /> </Route>
+          <Route path="/contato"><Contato /> </Route>
+      </Switch>
+    </Router>
   )
 }                                               
-//array vazio   index puxa if  
-export default App;
+
+export default App
